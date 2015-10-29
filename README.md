@@ -8,8 +8,8 @@ Value Rules below.
 
 ## Value Rules
 
- a. Tails has a value of 2, and heads a value of 3.
- b. Get the total value of the three coins per toss.
- c. Compose a string with these values in reverse order, from toss 6 to 1.
+1. Tails has a value of 2, and heads a value of 3.
+2. Get the total value of the three coins per toss.
+3. Compose a string with these values in reverse order, from toss 6 to 1.
 
     Example output: “767777” 
