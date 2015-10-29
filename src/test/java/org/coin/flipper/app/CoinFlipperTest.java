@@ -12,10 +12,10 @@ public class CoinFlipperTest {
 		CoinFlipper flipper = new CoinFlipper(runs);
 		flipper.tosses();
 		String result = flipper.result();
-		String flippedResult = flipper.flipResult();
 		assertNotNull(result);
-		assertNotNull(flippedResult);
 		assertFalse(result.isEmpty());
+		String flippedResult = flipper.flipResult();
+		assertNotNull(flippedResult);
 		assertFalse(flippedResult.isEmpty());
 	}
 

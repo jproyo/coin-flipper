@@ -3,6 +3,7 @@ package org.coin.flipper.app;
 public class CoinFlipper {
 
 	private Integer runs;
+	private String result;
 
 	public CoinFlipper(Integer runs) {
 		this.runs = runs;
@@ -14,13 +15,11 @@ public class CoinFlipper {
 	}
 
 	public String result() {
-		// TODO Auto-generated method stub
-		return null;
+		return result;
 	}
 
 	public String flipResult() {
-		// TODO Auto-generated method stub
-		return null;
+		return new StringBuilder(result).reverse().toString();
 	}
 
 }
