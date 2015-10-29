@@ -9,8 +9,20 @@ public class Dice {
 	
 	/** The status. */
 	private DiceSide status = DiceSide.head;
+	
+	/** The random generator. */
 	private RandomDiceGenerator randomGenerator;
 	
+	/**
+	 * Instantiates a new dice.
+	 */
+	public Dice() {
+		this.randomGenerator = new RandomDiceGenerator();
+	}
+	
+	/**
+	 * Tos.
+	 */
 	public void tos(){
 		this.status = DiceSide.values()[randomGenerator.next()];
 	}
