@@ -1,4 +1,4 @@
-package org.coin.flipper.app;
+package org.coin.flipper.app.model;
 
 import java.util.ArrayList;
 import java.util.List;

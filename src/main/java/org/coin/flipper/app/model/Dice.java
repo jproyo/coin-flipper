@@ -1,4 +1,6 @@
-package org.coin.flipper.app;
+package org.coin.flipper.app.model;
+
+import org.coin.flipper.app.random.RandomDiceGenerator;
 
 /**
  * The Class Dice.
@@ -7,9 +9,10 @@ public class Dice {
 	
 	/** The status. */
 	private DiceSide status = DiceSide.head;
+	private RandomDiceGenerator randomGenerator;
 	
 	public void tos(){
-		this.status = DiceSide.tail;
+		this.status = DiceSide.values()[randomGenerator.next()];
 	}
 	
 	/**
