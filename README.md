@@ -1,5 +1,7 @@
 # coin-flipper
 
+[![Build Status](https://travis-ci.org/jproyo/coin-flipper.svg?branch=master)](https://travis-ci.org/jproyo/coin-flipper?branch=master)
+
 This is a coin flipper app.
 
 Implement a function, routine or method (and the support code you might need)
