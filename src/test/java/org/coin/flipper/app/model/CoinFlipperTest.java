@@ -79,7 +79,7 @@ public class CoinFlipperTest {
 			System.out.printf("Dice rolling flipped %s%n",flippedResult);
 		}
 		
-		assertTrue(results.size() > 50);
+		assertTrue(results.size() > 80);
 	}
 
 }
